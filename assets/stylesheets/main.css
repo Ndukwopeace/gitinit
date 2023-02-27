@@ -59,3 +59,37 @@ GRID
 	-moz-box-sizing:border-box;
 	box-sizing: border-box;
 }
+.container{
+	margin:0 auto;
+	width:960px;
+	/*border:2px solid blue;*/
+	padding-left: 30px;
+	padding-right: 30px;
+}
+/*===============================================================================================================
+                                                   Typograhy
+=================================================================================================================*/
+
+h1,h3,h4,h5,p {
+	margin-bottom: 22px ;
+}
+/*===============================================================================================================
+                                                   Button
+=================================================================================================================*/
+
+.btn{
+	display: inline-block;
+	border-radius: 5px;
+	/*padding: 3px;*/
+	margin: 5px;
+	
+}
+.btn-alt{
+	border: 1px solid blue ;
+	padding: 4px 30px;
+	background-color: green;
+	
+}
+.hero{
+	padding: 22px 80px 66px 80px;
+}
