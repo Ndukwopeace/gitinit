@@ -52,7 +52,9 @@ custom styles
 ===============================================================================================*/
 body{
 	color: #888;
-	font: 300 16px/22px "open Sans","Helvetica Neue", Helvetica,Arial,sans-serif;
+	font: 300 16px/22px "Lato","Open Sans","Helvetica Neue", Helvetica,Arial,sans-serif;
+	
+
 }
 h1{
 	font-size:36px;
@@ -84,14 +86,25 @@ a:hover{
 	float:left;
 	font-size:48px;
 	/* line-height:44px; */
-	padding:40px 0 22px 0;
+	padding:20px 0 22px 0;
+	font-weight:100;
+	letter-spacing: 0.5;
+	/* margin:0 0 22px 0; */
+	width:40%;
 }
 .tagline{
-	margin:66px 0 22px 0;
+	/* margin:0 0 5px 0; */
+	padding:50px 0 5px 0 ;
+	/* background:#e0ce0b; */
+	text-align:right;
 }
 .primary-nav{
 	font-size:14px;
 	font-weight: 400;
+	text-transform: uppercase;
+}
+.nav{
+	text-align: right;
 }
 /* .teaser a:hover h3{
 	color:#a9b2b9;
@@ -158,21 +171,21 @@ h1,h3,h4,h5,p {
 	border: 1px solid black;
 	padding: 4px 30px;
 	/* background-color: green; */
+}
 
 /*===============================================================================================================
                                                    Hero section
 =================================================================================================================*/
-	
-
-
-}
 .hero{
+	clear:left;
 	line-height:44px;
 	padding: 22px 80px 66px 80px;
-}	
+	text-align:center;
+}
 .hero h2{
 	font-size:36px;
 }
-.hero p{
+.hero p {
 	font-size:24px;
+	font-weight:100;
 }
