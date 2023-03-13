@@ -51,6 +51,7 @@ table {
 custom styles
 ===============================================================================================*/
 body{
+	background: #293750;
 	color: #888;
 	font: 300 16px/22px "Lato","Open Sans","Helvetica Neue", Helvetica,Arial,sans-serif;
 	
@@ -75,9 +76,9 @@ h5{
 	font-size:14px;
 	font-weight:400;
 }
-a:hover{
+/* a:hover{
 	color:#a9b2b9;
-}
+} */
 a:hover{
 	color:#648880;
 }
@@ -109,6 +110,19 @@ a:hover{
 /* .teaser a:hover h3{
 	color:#a9b2b9;
 } */
+.primary-header a,.primary-footer a{
+	color:#fff;
+}
+.primary-header a:hover,.primary-footer a:hover{
+	color:#648880;
+}
+a{
+	text-decoration: none;
+	/* word-spacing: 10px; */
+}
+/* .primary-footer a{
+	word-spacing: 
+} */
 /*=============================================================================================
 GRID
 ===============================================================================================*/
@@ -120,11 +134,16 @@ GRID
 	-moz-box-sizing:border-box;
 	box-sizing: border-box;
 }
+.row{
+	background:white;
+	min-width:960px;
+	padding:66px 0 44px 0;
+}
 .container,
 .grid{
 	margin:0 auto;
 	width:960px;
-	/*border:2px solid blue;*/
+	/* border:2px solid blue; */
 	
 }
 .container{
@@ -156,21 +175,34 @@ GRID
 h1,h3,h4,h5,p {
 	margin-bottom: 22px ;
 }
+h5{
+	text-transform: uppercase;
+}
 /*===============================================================================================================
                                                    Button
 =================================================================================================================*/
 
 .btn{
+	border-radius: 5px;
 	display: inline-block;
 	border-radius: 5px;
 	/*padding: 3px;*/
 	margin: 5px;
+	color: white;
+	cursor: pointer;
+	font-weight: 400;
+	text-transform:uppercase;
+	letter-spacing: 1px;
 	
 }
 .btn-alt{
-	border: 1px solid black;
-	padding: 4px 30px;
+	border: 1px solid white;
+	padding: 10px 30px;
 	/* background-color: green; */
+}
+.btn-alt:hover{
+	background:white;
+	color:#648880;
 }
 
 /*===============================================================================================================
@@ -181,6 +213,7 @@ h1,h3,h4,h5,p {
 	line-height:44px;
 	padding: 22px 80px 66px 80px;
 	text-align:center;
+	color:white;
 }
 .hero h2{
 	font-size:36px;
