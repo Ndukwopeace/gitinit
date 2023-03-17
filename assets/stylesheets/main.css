@@ -51,7 +51,7 @@ table {
 custom styles
 ===============================================================================================*/
 body{
-	background: #293750;
+	background: #2a3850;
 	color: #888;
 	font: 300 16px/22px "Lato","Open Sans","Helvetica Neue", Helvetica,Arial,sans-serif;
 	
@@ -87,7 +87,7 @@ a:hover{
 	float:left;
 	font-size:48px;
 	/* line-height:44px; */
-	padding:20px 0 22px 0;
+	padding:30px 0 22px 0;
 	font-weight:100;
 	letter-spacing: 0.5;
 	/* margin:0 0 22px 0; */
@@ -105,7 +105,13 @@ a:hover{
 	text-transform: uppercase;
 }
 .nav{
-	text-align: right;
+	/* text-align: right; */
+	float:right;
+	word-spacing: 20px;
+	/* border:1px solid black; */
+}
+.footer-nav{
+font-size: smaller;
 }
 /* .teaser a:hover h3{
 	color:#a9b2b9;
@@ -116,13 +122,14 @@ a:hover{
 .primary-header a:hover,.primary-footer a:hover{
 	color:#648880;
 }
+.primary-footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 a{
 	text-decoration: none;
-	/* word-spacing: 10px; */
 }
-/* .primary-footer a{
-	word-spacing: 
-} */
+
 /*=============================================================================================
 GRID
 ===============================================================================================*/
@@ -134,11 +141,7 @@ GRID
 	-moz-box-sizing:border-box;
 	box-sizing: border-box;
 }
-.row{
-	background:white;
-	min-width:960px;
-	padding:66px 0 44px 0;
-}
+
 .container,
 .grid{
 	margin:0 auto;
@@ -168,12 +171,34 @@ GRID
 	padding-left:15px;
 	padding-right:15px;
 }
+
+/* ================================================================================================================
+Row
+=================================================================================================================== */
+.row{
+	background:white;
+	min-width:960px;
+	padding:66px 0 44px 0;
+}
+.row-alt{
+	background:linear-gradient(to right, #a1d3b0, #f6f1d3);
+	padding:44px 0 5px 0;
+	min-width:960px;
+	margin-top:50px;
+	/* margin-bottom: 40px; */
+	
+}
+
+
 /*===============================================================================================================
                                                    Typograhy
 =================================================================================================================*/
 
 h1,h3,h4,h5,p {
 	margin-bottom: 22px ;
+}
+h1,h3,h4{
+	color:#648880;
 }
 h5{
 	text-transform: uppercase;
@@ -222,3 +247,34 @@ h5{
 	font-size:24px;
 	font-weight:100;
 }
+
+/* ================================================================================
+register
+=================================================================================== */
+.lead{
+	clear:both;
+	line-height:40px;
+	/* padding: 50px 80px 10px 80px; */
+	text-align: center;
+	color:#888;
+	
+
+}
+.lead p {
+	font-size:23px;
+	font-weight:100;
+}
+
+/* ================================================================================
+SPEAKER
+=================================================================================== */
+.speaker-info{
+	border:2px solid #dfe2e5;
+	border-radius:5px;
+	margin-top:88px;
+	padding: 22px 0;
+	text-align: center;
+}
+/* .test{
+	border:2px solid black;
+} */
