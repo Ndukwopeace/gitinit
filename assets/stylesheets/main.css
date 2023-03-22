@@ -181,10 +181,14 @@ Row
 	padding:66px 0 44px 0;
 }
 .row-alt{
+	background:#cbe2c1;
+	background:-webkit-linear-gradient (to right, #a1d3b0,#f6f1d3);
+	background:-moz-linear-gradient (to right, #a1d3b0,#f6f1d3);
 	background:linear-gradient(to right, #a1d3b0, #f6f1d3);
-	padding:44px 0 5px 0;
+	padding:44px 0 22px 0;
 	min-width:960px;
 	margin-top:50px;
+	
 	/* margin-bottom: 40px; */
 	
 }
@@ -247,7 +251,18 @@ h5{
 	font-size:24px;
 	font-weight:100;
 }
+.teaser img{
+	/* width:280px; */
+   border-radius:5px; 
+   max-width:100%;
+   /* display:block; */
+   margin-bottom: 22px;
+   
+}
 
+.teaser h3,.teaser p{
+   text-align:center;
+}
 /* ================================================================================
 register
 =================================================================================== */
@@ -272,9 +287,31 @@ SPEAKER
 	border:2px solid #dfe2e5;
 	border-radius:5px;
 	margin-top:88px;
-	padding: 22px 0;
+	/* padding: 22px 0; */
 	text-align: center;
+	padding-bottom:22px;
 }
 /* .test{
 	border:2px solid black;
+} */
+
+.speaker-info img{
+	border-radius:50%;
+	height:130px;
+	vertical-align:top;
+	margin:-66px 0 22px 0;
+}
+/* .pad{
+	border:1px solid black;
+} */
+
+.venue-theatre{
+	margin-bottom: 66px;
+}
+.venue-map{
+	height: 260px;
+}
+/* iframe{
+	height:100%;
+	width:100%;
 } */
